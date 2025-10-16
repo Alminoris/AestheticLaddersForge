@@ -58,7 +58,7 @@ public class ModJsonTemplates
               },
               "result": {
                 "count": COUNT,
-                "id": "aestheticladders:OUTPUT_NAME"
+                "item": "aestheticladders:OUTPUT_NAME"
               }
             }
             """;

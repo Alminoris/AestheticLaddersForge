@@ -4,7 +4,7 @@ import net.alminoris.aestheticladders.util.helper.VoxelShapeHelper;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.InteractionHand;
-import net.minecraft.world.ItemInteractionResult;
+import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
@@ -41,14 +41,16 @@ public class StoneLadderBlock extends Block implements SimpleWaterloggedBlock
 
     public StoneLadderBlock()
     {
-        super(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE));
+        super(BlockBehaviour.Properties.copy(Blocks.STONE));
         this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(MOSSED, false));
     }
 
     @Override
-    protected ItemInteractionResult useItemOn(ItemStack stack, BlockState state, Level world, BlockPos pos,
+    public InteractionResult use(BlockState state, Level world, BlockPos pos,
                                               Player player, InteractionHand hand, BlockHitResult hit)
     {
+        ItemStack stack = player.getItemInHand(hand);
+
         boolean currentMossed = state.getValue(MOSSED);
         Direction currentFacing = state.getValue(FACING);
 
@@ -65,7 +67,7 @@ public class StoneLadderBlock extends Block implements SimpleWaterloggedBlock
                 stack.shrink(1);
             }
 
-            return ItemInteractionResult.SUCCESS;
+            return InteractionResult.SUCCESS;
         }
 
         if (stack.getItem() == Items.SHEARS && currentMossed)
@@ -78,17 +80,17 @@ public class StoneLadderBlock extends Block implements SimpleWaterloggedBlock
                         .setValue(FACING, currentFacing)
                         .setValue(MOSSED, currentMossed), 3);
 
-                stack.hurtAndBreak(1, player, EquipmentSlot.MAINHAND);
+                stack.hurtAndBreak(1, player, p -> p.broadcastBreakEvent(EquipmentSlot.MAINHAND));
             }
 
-            return ItemInteractionResult.SUCCESS;
+            return InteractionResult.SUCCESS;
         }
 
-        return super.useItemOn(stack, state, world, pos, player, hand, hit);
+        return super.use(state, world, pos, player, hand, hit);
     }
 
     @Override
-    protected VoxelShape getShape(BlockState state, BlockGetter getter, BlockPos pos, CollisionContext context)
+    public VoxelShape getShape(BlockState state, BlockGetter getter, BlockPos pos, CollisionContext context)
     {
         return getRotatedShape(state);
     }
@@ -116,7 +118,7 @@ public class StoneLadderBlock extends Block implements SimpleWaterloggedBlock
     }
 
     @Override
-    protected RenderShape getRenderShape(BlockState state)
+    public RenderShape getRenderShape(BlockState state)
     {
         return RenderShape.MODEL;
     }

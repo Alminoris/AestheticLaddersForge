@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "aestheticladders:viburnum_ladder"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_viburnum_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aestheticladders:viburnum_stick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_viburnum_stick",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "aestheticladders:viburnum_ladder"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "aestheticladders:yew_ladder"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_yew_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aestheticladders:yew_stick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_yew_stick",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "aestheticladders:yew_ladder"
+    ]
+  },
+  "sends_telemetry_event": false
+}

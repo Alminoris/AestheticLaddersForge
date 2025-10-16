@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mountain_hemlock_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aestheticladders:mountain_hemlock_stick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "aestheticladders:mountain_hemlock_ladder"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_mountain_hemlock_stick",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "aestheticladders:mountain_hemlock_ladder"
+    ]
+  },
+  "sends_telemetry_event": false
+}

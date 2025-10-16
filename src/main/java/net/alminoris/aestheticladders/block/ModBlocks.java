@@ -27,7 +27,7 @@ public class ModBlocks
     {{
         for(String name : BlockSetsHelper.getWoods())
         {
-            put(name, registerBlock(name+"_ladder", () -> new LadderBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.LADDER))));
+            put(name, registerBlock(name+"_ladder", () -> new LadderBlock(BlockBehaviour.Properties.copy(Blocks.LADDER))));
         }
     }};
 
