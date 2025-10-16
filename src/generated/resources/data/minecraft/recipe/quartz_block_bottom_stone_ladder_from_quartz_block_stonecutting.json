@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:quartz_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "aestheticladders:quartz_block_bottom_stone_ladder"
+  }
+}

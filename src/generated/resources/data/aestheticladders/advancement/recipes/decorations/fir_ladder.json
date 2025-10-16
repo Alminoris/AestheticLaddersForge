@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_fir_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "aestheticladders:fir_stick"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "aestheticladders:fir_ladder"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_fir_stick"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "aestheticladders:fir_ladder"
+    ]
+  }
+}

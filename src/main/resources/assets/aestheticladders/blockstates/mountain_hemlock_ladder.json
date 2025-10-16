@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "aestheticladders:block/mountain_hemlock_ladder",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "aestheticladders:block/mountain_hemlock_ladder"
+    },
+    "facing=south": {
+      "model": "aestheticladders:block/mountain_hemlock_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aestheticladders:block/mountain_hemlock_ladder",
+      "y": 270
+    }
+  }
+}

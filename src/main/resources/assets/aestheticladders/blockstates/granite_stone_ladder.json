@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,mossed=false": { "model": "aestheticladders:block/granite_stone_ladder" },
+    "facing=south,mossed=false": { "model": "aestheticladders:block/granite_stone_ladder", "y": 180 },
+    "facing=west,mossed=false": { "model": "aestheticladders:block/granite_stone_ladder", "y": 270 },
+    "facing=east,mossed=false": { "model": "aestheticladders:block/granite_stone_ladder", "y": 90 },
+    "facing=north,mossed=true": { "model": "aestheticladders:block/granite_stone_ladder_mossed" },
+    "facing=south,mossed=true": { "model": "aestheticladders:block/granite_stone_ladder_mossed", "y": 180 },
+    "facing=west,mossed=true": { "model": "aestheticladders:block/granite_stone_ladder_mossed", "y": 270 },
+    "facing=east,mossed=true": { "model": "aestheticladders:block/granite_stone_ladder_mossed", "y": 90 }
+  }
+}
