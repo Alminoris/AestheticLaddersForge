@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "key": {
-    "#": {
-      "item": "aestheticladders:crimson_stick"
-    }
-  },
   "pattern": [
     "# #",
     "###",
     "# #"
   ],
+  "key": {
+    "#": {
+      "item": "aestheticladders:crimson_stick"
+    }
+  },
   "result": {
-    "count": 3,
-    "item": "aestheticladders:crimson_ladder"
+    "item": "aestheticladders:crimson_ladder",
+    "count": 3
   }
 }

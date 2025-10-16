@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "key": {
-    "#": {
-      "item": "aestheticladders:spruce_stick"
-    }
-  },
   "pattern": [
     "# #",
     "###",
     "# #"
   ],
+  "key": {
+    "#": {
+      "item": "aestheticladders:spruce_stick"
+    }
+  },
   "result": {
-    "count": 3,
-    "item": "aestheticladders:spruce_ladder"
+    "item": "aestheticladders:spruce_ladder",
+    "count": 3
   }
 }

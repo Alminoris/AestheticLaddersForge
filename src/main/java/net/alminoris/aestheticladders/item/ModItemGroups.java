@@ -2,6 +2,7 @@ package net.alminoris.aestheticladders.item;
 
 import net.alminoris.aestheticladders.AestheticLadders;
 import net.minecraft.network.chat.Component;
+import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Blocks;
@@ -29,7 +30,7 @@ public class ModItemGroups
 
         @Override
         public Component getDisplayName() {
-            return Component.translatable("itemgroup.aladrstab");
+            return new TranslatableComponent("itemgroup.aladrstab");
         }
     };
 

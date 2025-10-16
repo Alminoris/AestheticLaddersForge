@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "key": {
-    "#": {
-      "item": "aestheticladders:jungle_stick"
-    }
-  },
   "pattern": [
     "# #",
     "###",
     "# #"
   ],
+  "key": {
+    "#": {
+      "item": "aestheticladders:jungle_stick"
+    }
+  },
   "result": {
-    "count": 3,
-    "item": "aestheticladders:jungle_ladder"
+    "item": "aestheticladders:jungle_ladder",
+    "count": 3
   }
 }

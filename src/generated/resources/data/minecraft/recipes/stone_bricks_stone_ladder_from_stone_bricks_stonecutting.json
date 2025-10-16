@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "count": 1,
   "ingredient": {
     "item": "minecraft:stone_bricks"
   },
-  "result": "aestheticladders:stone_bricks_stone_ladder"
+  "result": "aestheticladders:stone_bricks_stone_ladder",
+  "count": 1
 }

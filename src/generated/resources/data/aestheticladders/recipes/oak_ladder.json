@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "key": {
-    "#": {
-      "item": "aestheticladders:oak_stick"
-    }
-  },
   "pattern": [
     "# #",
     "###",
     "# #"
   ],
+  "key": {
+    "#": {
+      "item": "aestheticladders:oak_stick"
+    }
+  },
   "result": {
-    "count": 3,
-    "item": "aestheticladders:oak_ladder"
+    "item": "aestheticladders:oak_ladder",
+    "count": 3
   }
 }

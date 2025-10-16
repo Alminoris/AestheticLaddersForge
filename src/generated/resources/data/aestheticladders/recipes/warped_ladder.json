@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "key": {
-    "#": {
-      "item": "aestheticladders:warped_stick"
-    }
-  },
   "pattern": [
     "# #",
     "###",
     "# #"
   ],
+  "key": {
+    "#": {
+      "item": "aestheticladders:warped_stick"
+    }
+  },
   "result": {
-    "count": 3,
-    "item": "aestheticladders:warped_ladder"
+    "item": "aestheticladders:warped_ladder",
+    "count": 3
   }
 }

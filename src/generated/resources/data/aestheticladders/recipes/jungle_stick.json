@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# ",
+    " #"
+  ],
   "key": {
     "#": {
       "item": "minecraft:jungle_planks"
     }
   },
-  "pattern": [
-    "# ",
-    " #"
-  ],
   "result": {
-    "count": 4,
-    "item": "aestheticladders:jungle_stick"
+    "item": "aestheticladders:jungle_stick",
+    "count": 4
   }
 }
