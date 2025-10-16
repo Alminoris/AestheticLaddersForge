@@ -30,6 +30,5 @@
     "recipes": [
       "aestheticladders:araucaria_ladder"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

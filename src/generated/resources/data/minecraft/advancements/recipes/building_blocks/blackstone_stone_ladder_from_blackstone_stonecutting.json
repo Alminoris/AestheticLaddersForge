@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:blackstone_stone_ladder_from_blackstone_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

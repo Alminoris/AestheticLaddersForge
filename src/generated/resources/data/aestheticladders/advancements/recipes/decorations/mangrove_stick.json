@@ -30,6 +30,5 @@
     "recipes": [
       "aestheticladders:mangrove_stick"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -30,6 +30,5 @@
     "recipes": [
       "aestheticladders:wild_cherry_ladder"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

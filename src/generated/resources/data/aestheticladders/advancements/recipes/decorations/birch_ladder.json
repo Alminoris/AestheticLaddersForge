@@ -30,6 +30,5 @@
     "recipes": [
       "aestheticladders:birch_ladder"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

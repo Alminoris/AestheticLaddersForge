@@ -30,6 +30,5 @@
     "recipes": [
       "aestheticladders:white_mulberry_ladder"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

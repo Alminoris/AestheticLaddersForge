@@ -30,6 +30,5 @@
     "recipes": [
       "aestheticladders:bauhinia_ladder"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -30,6 +30,5 @@
     "recipes": [
       "aestheticladders:bald_cypress_ladder"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

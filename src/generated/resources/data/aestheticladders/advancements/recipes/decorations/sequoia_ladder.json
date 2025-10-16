@@ -30,6 +30,5 @@
     "recipes": [
       "aestheticladders:sequoia_ladder"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

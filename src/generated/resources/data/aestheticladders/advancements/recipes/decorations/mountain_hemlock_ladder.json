@@ -30,6 +30,5 @@
     "recipes": [
       "aestheticladders:mountain_hemlock_ladder"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

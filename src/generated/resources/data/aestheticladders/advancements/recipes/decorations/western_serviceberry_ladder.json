@@ -30,6 +30,5 @@
     "recipes": [
       "aestheticladders:western_serviceberry_ladder"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

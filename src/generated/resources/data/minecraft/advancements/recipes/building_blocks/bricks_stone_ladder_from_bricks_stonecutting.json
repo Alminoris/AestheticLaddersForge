@@ -30,6 +30,5 @@
     "recipes": [
       "minecraft:bricks_stone_ladder_from_bricks_stonecutting"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

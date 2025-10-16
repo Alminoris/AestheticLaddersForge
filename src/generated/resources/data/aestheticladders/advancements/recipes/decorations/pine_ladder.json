@@ -30,6 +30,5 @@
     "recipes": [
       "aestheticladders:pine_ladder"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -30,6 +30,5 @@
     "recipes": [
       "aestheticladders:oak_stick"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }
