@@ -1,2 +1,4 @@
-// 1.20.1	2025-10-16T08:18:20.7480565	Tags for minecraft:block mod id aestheticladders
+// 1.20.1	2025-10-16T09:19:04.9506673	Tags for minecraft:block mod id aestheticladders
 be1c4356bab867dd792a47f6f161a996e2862352 data/minecraft/tags/blocks/climbable.json
+074376f9f8171abcb877d31fba8fb7c1109b8e00 data/minecraft/tags/blocks/mineable/axe.json
+147c42d685dba3b6d6e26af76709fdbc604d3891 data/minecraft/tags/blocks/mineable/pickaxe.json
