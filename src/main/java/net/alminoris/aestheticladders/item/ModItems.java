@@ -12,7 +12,8 @@ import java.util.Dictionary;
 import java.util.Hashtable;
 import java.util.function.Supplier;
 
-public class ModItems {
+public class ModItems
+{
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, AestheticLadders.MOD_ID);
 
