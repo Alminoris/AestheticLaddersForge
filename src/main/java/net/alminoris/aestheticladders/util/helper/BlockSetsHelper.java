@@ -1,5 +1,7 @@
 package net.alminoris.aestheticladders.util.helper;
 
+import net.alminoris.aestheticladders.item.ModItemGroups;
+
 public class BlockSetsHelper
 {
     public static final String[] COLORS =
@@ -16,43 +18,46 @@ public class BlockSetsHelper
                     "quartz_block_bottom", "stone_bricks", "bricks", "mud_bricks", "sandstone"
             };
 
-    public static final String[] EXTRA_STONES_WF =
-            {
-                    "dolomite_block", "saltmarsh_block", "loessic_marl_block", "loamy_marl_block", "fossil_marlstone_block", "limestone_block"
-            };
-
     public static final String[] WOODS =
             {
                     "oak", "birch", "spruce", "jungle", "acacia", "dark_oak",
                     "crimson", "warped", "mangrove"
             };
 
-    public static final String[] EXTRA_WOODS_AN =
-            {
-                    "hazelnut", "hornbeam", "hawthorn", "quince", "plum", "mango", "fig", "viburnum", "white_mulberry", "wild_cherry",
-                    "bauhinia", "pine", "fir", "cedar", "araucaria", "juniper",
-                    "bald_cypress", "thuja", "sequoia", "mountain_hemlock", "cryptomeria", "yew", "larch"
-            };
-
-    public static final String[] EXTRA_WOODS_WF =
-            {
-                    "olive", "tamarisk", "western_serviceberry", "trembling_aspen", "cottonwood"
-            };
-
     public static String[] getWoods()
     {
-        String[] combinedWoods = new String[WOODS.length + EXTRA_WOODS_AN.length + EXTRA_WOODS_WF.length];
-        System.arraycopy(WOODS, 0, combinedWoods, 0, WOODS.length);
-        System.arraycopy(EXTRA_WOODS_AN, 0, combinedWoods, WOODS.length, EXTRA_WOODS_AN.length);
-        System.arraycopy(EXTRA_WOODS_WF, 0, combinedWoods, WOODS.length+EXTRA_WOODS_AN.length, EXTRA_WOODS_WF.length);
+        int totalSize = WOODS.length
+                + ModItemGroups.AN_WOOD_NAMES.size()
+                + ModItemGroups.WF_WOOD_NAMES.size();
+
+        String[] combinedWoods = new String[totalSize];
+
+        int currentIndex = 0;
+
+        System.arraycopy(WOODS, 0, combinedWoods, currentIndex, WOODS.length);
+        currentIndex += WOODS.length;
+
+        System.arraycopy(ModItemGroups.AN_WOOD_NAMES.toArray(new String[0]), 0, combinedWoods, currentIndex, ModItemGroups.AN_WOOD_NAMES.size());
+        currentIndex += ModItemGroups.AN_WOOD_NAMES.size();
+
+        System.arraycopy(ModItemGroups.WF_WOOD_NAMES.toArray(new String[0]), 0, combinedWoods, currentIndex, ModItemGroups.WF_WOOD_NAMES.size());
+
         return combinedWoods;
     }
 
     public static String[] getStones()
     {
-        String[] combinedStones = new String[STONES.length + EXTRA_STONES_WF.length];
-        System.arraycopy(STONES, 0, combinedStones, 0, STONES.length);
-        System.arraycopy(EXTRA_STONES_WF, 0, combinedStones, STONES.length, EXTRA_STONES_WF.length);
+        int totalSize = STONES.length + ModItemGroups.EXTRA_STONES_WF.size();
+
+        String[] combinedStones = new String[totalSize];
+
+        int currentIndex = 0;
+
+        System.arraycopy(STONES, 0, combinedStones, currentIndex, STONES.length);
+        currentIndex += STONES.length;
+
+        System.arraycopy(ModItemGroups.EXTRA_STONES_WF.toArray(new String[0]), 0, combinedStones, currentIndex, ModItemGroups.EXTRA_STONES_WF.size());
+
         return combinedStones;
     }
 }

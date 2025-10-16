@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:acacia_planks"
@@ -13,6 +12,5 @@
   "result": {
     "count": 4,
     "item": "aestheticladders:acacia_stick"
-  },
-  "show_notification": true
+  }
 }

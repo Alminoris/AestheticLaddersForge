@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "#": {
       "item": "minecraft:oak_planks"
@@ -13,6 +12,5 @@
   "result": {
     "count": 4,
     "item": "aestheticladders:oak_stick"
-  },
-  "show_notification": true
+  }
 }

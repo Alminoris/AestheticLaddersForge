@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "#": {
       "item": "aestheticladders:trembling_aspen_stick"
@@ -14,6 +13,5 @@
   "result": {
     "count": 3,
     "item": "aestheticladders:trembling_aspen_ladder"
-  },
-  "show_notification": true
+  }
 }

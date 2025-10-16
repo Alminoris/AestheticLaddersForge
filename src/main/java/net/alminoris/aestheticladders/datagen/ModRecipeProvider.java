@@ -1,33 +1,32 @@
 package net.alminoris.aestheticladders.datagen;
 
 import net.alminoris.aestheticladders.block.ModBlocks;
+import net.alminoris.aestheticladders.item.ModItemGroups;
 import net.alminoris.aestheticladders.item.ModItems;
 import net.alminoris.aestheticladders.util.helper.BlockSetsHelper;
 import net.alminoris.aestheticladders.util.helper.ModJsonHelper;
-import net.minecraft.core.HolderLookup;
-import net.minecraft.data.PackOutput;
+import net.minecraft.data.DataGenerator;
 import net.minecraft.data.recipes.*;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 import net.minecraftforge.registries.ForgeRegistries;
 
-import java.util.concurrent.CompletableFuture;
 import java.util.function.Consumer;
 
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder
 {
-    public ModRecipeProvider(PackOutput pOutput)
+    public ModRecipeProvider(DataGenerator pOutput)
     {
         super(pOutput);
     }
 
     @Override
-    protected void buildRecipes(Consumer<FinishedRecipe> recipeOutput)
+    protected void buildCraftingRecipes(Consumer<FinishedRecipe> recipeOutput)
     {
         for(String name : BlockSetsHelper.WOODS)
         {
-            ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, ModItems.WOODEN_STICKS.get(name).get(), 4)
+            ShapedRecipeBuilder.shaped(ModItems.WOODEN_STICKS.get(name).get(), 4)
                     .define('#', ForgeRegistries.BLOCKS.getValue(ResourceLocation.withDefaultNamespace(name+"_planks")))
                     .pattern("# ")
                     .pattern(" #")
@@ -35,7 +34,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                             has(ForgeRegistries.BLOCKS.getValue(ResourceLocation.withDefaultNamespace(name+"_planks"))))
                     .save(recipeOutput);
 
-            ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, ModBlocks.WOODEN_LADDERS.get(name).get(), 3)
+            ShapedRecipeBuilder.shaped(ModBlocks.WOODEN_LADDERS.get(name).get(), 3)
                     .define('#', ModItems.WOODEN_STICKS.get(name).get())
                     .pattern("# #")
                     .pattern("###")
@@ -44,9 +43,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                     .save(recipeOutput);
         }
 
-        for(String name : BlockSetsHelper.EXTRA_WOODS_AN)
+        for(String name : ModItemGroups.AN_WOOD_NAMES)
         {
-            ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, ModBlocks.WOODEN_LADDERS.get(name).get(), 3)
+            ShapedRecipeBuilder.shaped(ModBlocks.WOODEN_LADDERS.get(name).get(), 3)
                     .define('#', ModItems.WOODEN_STICKS.get(name).get())
                     .pattern("# #")
                     .pattern("###")
@@ -55,9 +54,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                     .save(recipeOutput);
         }
 
-        for(String name : BlockSetsHelper.EXTRA_WOODS_WF)
+        for(String name : ModItemGroups.WF_WOOD_NAMES)
         {
-            ShapedRecipeBuilder.shaped(RecipeCategory.DECORATIONS, ModBlocks.WOODEN_LADDERS.get(name).get(), 3)
+            ShapedRecipeBuilder.shaped(ModBlocks.WOODEN_LADDERS.get(name).get(), 3)
                     .define('#', ModItems.WOODEN_STICKS.get(name).get())
                     .pattern("# #")
                     .pattern("###")
@@ -71,10 +70,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
             Block block = ForgeRegistries.BLOCKS.getValue(ResourceLocation.withDefaultNamespace(name.equals("basalt_side") ? "basalt" :
                     (name.equals("quartz_block_bottom") ? "quartz_block" : name)));
 
-            stonecutterResultFromBase(recipeOutput, RecipeCategory.BUILDING_BLOCKS, ModBlocks.STONE_LADDERS.get(name).get(), block, 1);
+            stonecutterResultFromBase(recipeOutput, ModBlocks.STONE_LADDERS.get(name).get(), block, 1);
         }
 
-        for(String name : BlockSetsHelper.EXTRA_STONES_WF)
+        for(String name : ModItemGroups.EXTRA_STONES_WF)
         {
             ModJsonHelper.createStonecuttingRecipe("wildfields:"+name,
                     ForgeRegistries.BLOCKS.getKey(ModBlocks.STONE_LADDERS.get(name).get()).getPath(), "1");

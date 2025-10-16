@@ -4,7 +4,7 @@ import net.alminoris.aestheticladders.AestheticLadders;
 import net.alminoris.aestheticladders.block.ModBlocks;
 import net.alminoris.aestheticladders.item.ModItems;
 import net.alminoris.aestheticladders.util.helper.BlockSetsHelper;
-import net.minecraft.data.PackOutput;
+import net.minecraft.data.DataGenerator;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -15,7 +15,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItemModelProvider extends ItemModelProvider
 {
-    public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper)
+    public ModItemModelProvider(DataGenerator output, ExistingFileHelper existingFileHelper)
     {
         super(output, AestheticLadders.MOD_ID, existingFileHelper);
     }

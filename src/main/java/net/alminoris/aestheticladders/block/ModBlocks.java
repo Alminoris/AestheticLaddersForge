@@ -2,6 +2,7 @@ package net.alminoris.aestheticladders.block;
 
 import net.alminoris.aestheticladders.AestheticLadders;
 import net.alminoris.aestheticladders.block.custom.StoneLadderBlock;
+import net.alminoris.aestheticladders.item.ModItemGroups;
 import net.alminoris.aestheticladders.item.ModItems;
 import net.alminoris.aestheticladders.util.helper.BlockSetsHelper;
 import net.minecraft.world.item.BlockItem;
@@ -48,7 +49,7 @@ public class ModBlocks
 
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block)
     {
-        ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+        ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties().tab(ModItemGroups.ALADRS_TAB)));
     }
 
     public static void register(IEventBus eventBus)

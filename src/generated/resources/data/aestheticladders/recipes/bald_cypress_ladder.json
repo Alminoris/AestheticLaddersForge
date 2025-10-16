@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "key": {
     "#": {
       "item": "aestheticladders:bald_cypress_stick"
@@ -14,6 +13,5 @@
   "result": {
     "count": 3,
     "item": "aestheticladders:bald_cypress_ladder"
-  },
-  "show_notification": true
+  }
 }
