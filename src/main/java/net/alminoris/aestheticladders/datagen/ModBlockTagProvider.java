@@ -26,11 +26,15 @@ public class ModBlockTagProvider extends BlockTagsProvider
         {
             tag(BlockTags.CLIMBABLE)
                     .add(ModBlocks.WOODEN_LADDERS.get(name).get());
+            tag(BlockTags.MINEABLE_WITH_AXE)
+                    .add(ModBlocks.WOODEN_LADDERS.get(name).get());
         }
 
         for (String name : BlockSetsHelper.getStones())
         {
             tag(BlockTags.CLIMBABLE)
+                    .add(ModBlocks.STONE_LADDERS.get(name).get());
+            tag(BlockTags.MINEABLE_WITH_PICKAXE)
                     .add(ModBlocks.STONE_LADDERS.get(name).get());
         }
     }

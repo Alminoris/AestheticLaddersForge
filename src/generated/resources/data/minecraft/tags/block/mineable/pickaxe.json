@@ -1,0 +1,23 @@
+{
+  "values": [
+    "aestheticladders:stone_stone_ladder",
+    "aestheticladders:tuff_stone_ladder",
+    "aestheticladders:blackstone_stone_ladder",
+    "aestheticladders:andesite_stone_ladder",
+    "aestheticladders:diorite_stone_ladder",
+    "aestheticladders:granite_stone_ladder",
+    "aestheticladders:deepslate_stone_ladder",
+    "aestheticladders:basalt_side_stone_ladder",
+    "aestheticladders:quartz_block_bottom_stone_ladder",
+    "aestheticladders:stone_bricks_stone_ladder",
+    "aestheticladders:bricks_stone_ladder",
+    "aestheticladders:mud_bricks_stone_ladder",
+    "aestheticladders:sandstone_stone_ladder",
+    "aestheticladders:dolomite_block_stone_ladder",
+    "aestheticladders:saltmarsh_block_stone_ladder",
+    "aestheticladders:loessic_marl_block_stone_ladder",
+    "aestheticladders:loamy_marl_block_stone_ladder",
+    "aestheticladders:fossil_marlstone_block_stone_ladder",
+    "aestheticladders:limestone_block_stone_ladder"
+  ]
+}
