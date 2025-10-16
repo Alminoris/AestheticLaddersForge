@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "aestheticladders:block/bamboo_ladder"
-  }
-}
