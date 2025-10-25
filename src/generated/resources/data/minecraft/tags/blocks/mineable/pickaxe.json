@@ -12,12 +12,6 @@
     "aestheticladders:stone_bricks_stone_ladder",
     "aestheticladders:bricks_stone_ladder",
     "aestheticladders:mud_bricks_stone_ladder",
-    "aestheticladders:sandstone_stone_ladder",
-    "aestheticladders:dolomite_block_stone_ladder",
-    "aestheticladders:saltmarsh_block_stone_ladder",
-    "aestheticladders:loessic_marl_block_stone_ladder",
-    "aestheticladders:loamy_marl_block_stone_ladder",
-    "aestheticladders:fossil_marlstone_block_stone_ladder",
-    "aestheticladders:limestone_block_stone_ladder"
+    "aestheticladders:sandstone_stone_ladder"
   ]
 }

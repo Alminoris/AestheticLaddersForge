@@ -1,4 +1,4 @@
-// 1.19.2	2025-10-16T10:14:32.5159238	Tags for minecraft:block
-3512919e8b8a37d00d2c2a1f875d95437d7e02c3 data/minecraft/tags/blocks/climbable.json
-18a251f46bc56921543a0eb2203c0091e8f68d77 data/minecraft/tags/blocks/mineable/axe.json
-147c42d685dba3b6d6e26af76709fdbc604d3891 data/minecraft/tags/blocks/mineable/pickaxe.json
+// 1.19.2	2025-10-25T13:08:07.9102245	Tags for minecraft:block
+7e9351cbc0577efcb07c793b6269759baa497579 data/minecraft/tags/blocks/climbable.json
+0e7d5d43ac437b3fa7e8eaf401ed3f2f37e47ec8 data/minecraft/tags/blocks/mineable/axe.json
+c0e1d692138fd3a37f3985a2114be15fc581776e data/minecraft/tags/blocks/mineable/pickaxe.json
