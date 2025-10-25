@@ -1,25 +1,37 @@
-[16жовт.2025 10:43:01.178] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 1.18, --assetsDir, C:\Users\olega\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 40.3.10, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, --mod, aestheticladders, --all, --output, F:\Programming\MinecraftModding\Projects\AestheticLaddersForge\src\generated\resources, --existing, F:\Programming\MinecraftModding\Projects\AestheticLaddersForge\src\main\resources]
-[16жовт.2025 10:43:01.192] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.16 by Eclipse Adoptium
-[16жовт.2025 10:43:01.628] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/olega/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%2324!/ Service=ModLauncher Env=CLIENT
-[16жовт.2025 10:43:02.883] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\olega\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.18.2-40.3.10\349ad0a3a87fd39b356c17c9c4251c6dc87d812b\javafmllanguage-1.18.2-40.3.10.jar is missing mods.toml file
-[16жовт.2025 10:43:02.893] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\olega\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.18.2-40.3.10\1f12c09e91dee065068759e64dcf789c7f55625\lowcodelanguage-1.18.2-40.3.10.jar is missing mods.toml file
-[16жовт.2025 10:43:02.903] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\olega\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.18.2-40.3.10\653a151dd17814c0e97d8d3594a5daff1a4fcbea\mclanguage-1.18.2-40.3.10.jar is missing mods.toml file
-[16жовт.2025 10:43:02.909] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\olega\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.18.2-40.3.10\2f90af073d253a3b4a2d60c7726ab0bf2c52b2dd\fmlcore-1.18.2-40.3.10.jar is missing mods.toml file
-[16жовт.2025 10:43:03.205] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[16жовт.2025 10:43:06.416] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\olega\.gradle\caches\forge_gradle\assets, --assetIndex, 1.18, --mod, aestheticladders, --all, --output, F:\Programming\MinecraftModding\Projects\AestheticLaddersForge\src\generated\resources, --existing, F:\Programming\MinecraftModding\Projects\AestheticLaddersForge\src\main\resources]
-[16жовт.2025 10:43:06.639] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [aestheticladders]
-[16жовт.2025 10:43:16.676] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.3.10, for MC 1.18.2 with MCP 20220404.173914
-[16жовт.2025 10:43:16.676] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.3.10 Initialized
-[16жовт.2025 10:43:17.904] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/olega/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.3.10_mapped_official_1.18.2/forge-1.18.2-40.3.10_mapped_official_1.18.2-recomp.jar%2380!/assets/.mcassetsroot' uses unexpected schema
-[16жовт.2025 10:43:17.906] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/olega/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.3.10_mapped_official_1.18.2/forge-1.18.2-40.3.10_mapped_official_1.18.2-recomp.jar%2380!/data/.mcassetsroot' uses unexpected schema
-[16жовт.2025 10:43:18.509] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: LootTables
-[16жовт.2025 10:43:18.684] [main/INFO] [net.minecraft.data.DataGenerator/]: LootTables finished after 175 ms
-[16жовт.2025 10:43:18.686] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[16жовт.2025 10:43:18.894] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 208 ms
-[16жовт.2025 10:43:18.909] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block Tags
-[16жовт.2025 10:43:18.929] [main/INFO] [net.minecraft.data.DataGenerator/]: Block Tags finished after 20 ms
-[16жовт.2025 10:43:18.929] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: aestheticladders
-[16жовт.2025 10:43:19.089] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: aestheticladders finished after 157 ms
-[16жовт.2025 10:43:19.089] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: aestheticladders
-[16жовт.2025 10:43:19.330] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: aestheticladders finished after 240 ms
-[16жовт.2025 10:43:19.332] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 823 ms
+[25жовт.2025 13:18:41.233] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 1.19, --assetsDir, C:\Users\olega\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 40.3.10, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, --mod, aestheticladders, --all, --output, F:\Programming\MinecraftModding\Projects\AestheticLaddersForge\src\generated\resources, --existing, F:\Programming\MinecraftModding\Projects\AestheticLaddersForge\src\main\resources]
+[25жовт.2025 13:18:41.250] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.16 by Eclipse Adoptium
+[25жовт.2025 13:18:41.796] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/olega/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%2324!/ Service=ModLauncher Env=CLIENT
+[25жовт.2025 13:18:43.213] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\olega\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.18.2-40.3.10\349ad0a3a87fd39b356c17c9c4251c6dc87d812b\javafmllanguage-1.18.2-40.3.10.jar is missing mods.toml file
+[25жовт.2025 13:18:43.228] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\olega\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.18.2-40.3.10\1f12c09e91dee065068759e64dcf789c7f55625\lowcodelanguage-1.18.2-40.3.10.jar is missing mods.toml file
+[25жовт.2025 13:18:43.243] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\olega\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.18.2-40.3.10\653a151dd17814c0e97d8d3594a5daff1a4fcbea\mclanguage-1.18.2-40.3.10.jar is missing mods.toml file
+[25жовт.2025 13:18:43.262] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\olega\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.18.2-40.3.10\2f90af073d253a3b4a2d60c7726ab0bf2c52b2dd\fmlcore-1.18.2-40.3.10.jar is missing mods.toml file
+[25жовт.2025 13:18:43.685] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[25жовт.2025 13:18:50.145] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\olega\.gradle\caches\forge_gradle\assets, --assetIndex, 1.19, --mod, aestheticladders, --all, --output, F:\Programming\MinecraftModding\Projects\AestheticLaddersForge\src\generated\resources, --existing, F:\Programming\MinecraftModding\Projects\AestheticLaddersForge\src\main\resources]
+[25жовт.2025 13:18:50.682] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [aestheticladders]
+[25жовт.2025 13:19:06.495] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.3.10, for MC 1.18.2 with MCP 20220404.173914
+[25жовт.2025 13:19:06.524] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.3.10 Initialized
+[25жовт.2025 13:19:08.283] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/olega/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.3.10_mapped_official_1.18.2/forge-1.18.2-40.3.10_mapped_official_1.18.2-recomp.jar%2380!/assets/.mcassetsroot' uses unexpected schema
+[25жовт.2025 13:19:08.285] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/olega/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.3.10_mapped_official_1.18.2/forge-1.18.2-40.3.10_mapped_official_1.18.2-recomp.jar%2380!/data/.mcassetsroot' uses unexpected schema
+[25жовт.2025 13:19:08.874] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: LootTables
+[25жовт.2025 13:19:09.036] [main/INFO] [net.minecraft.data.DataGenerator/]: LootTables finished after 161 ms
+[25жовт.2025 13:19:09.036] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[25жовт.2025 13:19:09.129] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 91 ms
+[25жовт.2025 13:19:09.129] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block Tags
+[25жовт.2025 13:19:09.155] [main/INFO] [net.minecraft.data.DataGenerator/]: Block Tags finished after 25 ms
+[25жовт.2025 13:19:09.155] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: aestheticladders
+[25жовт.2025 13:19:09.249] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: aestheticladders finished after 91 ms
+[25жовт.2025 13:19:09.249] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: aestheticladders
+[25жовт.2025 13:19:09.426] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: aestheticladders finished after 175 ms
+[25жовт.2025 13:19:09.426] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: en_us
+[25жовт.2025 13:19:09.622] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: en_us finished after 195 ms
+[25жовт.2025 13:19:09.622] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: de_de
+[25жовт.2025 13:19:09.633] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: de_de finished after 10 ms
+[25жовт.2025 13:19:09.633] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: es_es
+[25жовт.2025 13:19:09.641] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: es_es finished after 6 ms
+[25жовт.2025 13:19:09.641] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: fr_fr
+[25жовт.2025 13:19:09.653] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: fr_fr finished after 11 ms
+[25жовт.2025 13:19:09.653] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: ru_ru
+[25жовт.2025 13:19:09.675] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: ru_ru finished after 21 ms
+[25жовт.2025 13:19:09.677] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: uk_ua
+[25жовт.2025 13:19:09.689] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: uk_ua finished after 11 ms
+[25жовт.2025 13:19:09.689] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 815 ms
