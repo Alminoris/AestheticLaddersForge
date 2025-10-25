@@ -30,7 +30,7 @@ public class ModItemGroups
 
         @Override
         public Component getDisplayName() {
-            return new TranslatableComponent("itemgroup.aladrstab");
+            return new TranslatableComponent("itemGroup.aestheticladders.aladrstab");
         }
     };
 

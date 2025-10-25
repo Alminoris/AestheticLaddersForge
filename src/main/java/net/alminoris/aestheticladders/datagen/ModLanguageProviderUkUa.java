@@ -147,6 +147,6 @@ public class ModLanguageProviderUkUa extends LanguageProvider
             }
         }
 
-        add("itemgroup.aladrstab","Aesthetic Ladders");
+        add("itemGroup.aestheticladders.aladrstab","Aesthetic Ladders");
     }
 }

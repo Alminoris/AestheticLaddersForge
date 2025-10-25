@@ -152,5 +152,5 @@
   "item.aestheticladders.willow_stick": "\u0412\u0435\u0440\u0431\u043E\u0432\u0430 \u043F\u0430\u043B\u0438\u0447\u043A\u0430",
   "item.aestheticladders.wisteria_nss_stick": "\u0413\u043B\u0456\u0446\u0438\u043D\u0456\u0439\u043D\u0430 \u043F\u0430\u043B\u0438\u0447\u043A\u0430",
   "item.aestheticladders.yew_stick": "\u0422\u0438\u0441\u043E\u0432\u0430 \u043F\u0430\u043B\u0438\u0447\u043A\u0430",
-  "itemgroup.aladrstab": "Aesthetic Ladders"
+  "itemGroup.aestheticladders.aladrstab": "Aesthetic Ladders"
 }
