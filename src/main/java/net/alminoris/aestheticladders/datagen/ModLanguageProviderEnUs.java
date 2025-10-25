@@ -52,6 +52,6 @@ public class ModLanguageProviderEnUs extends LanguageProvider
             add("item." + AestheticLadders.MOD_ID + "." + path, displayName);
         }
 
-        add("itemgroup.aladrstab","Aesthetic Ladders");
+        add("itemGroup.aestheticladders.aladrstab","Aesthetic Ladders");
     }
 }
